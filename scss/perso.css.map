@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACL,KAAK,EAAC,MAAM;EACZ,MAAM,EAAC,EAAE;EACT,OAAO,EAAE,MAAM",
+"sources": ["perso.scss"],
+"names": [],
+"file": "perso.css"
+}
