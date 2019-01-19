@@ -1,2 +1,19 @@
-.portfolio-logos {
+.logos {
+  width:20vmin;
+  margin:6%;
+  display: inline;
 }
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.bg-tertiary {
+  background-color: $tertiary !important;
+}
+
+.text-paragraphe {
+  padding:3%;
+  font-weight: lighter;
+}
+
