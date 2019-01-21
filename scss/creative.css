@@ -224,8 +224,8 @@ header.masthead {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
 
 .logos {
-  width: 20vmin;
-  margin: 6%;
+  width: 23vmin;
+  margin: 2%;
   display: inline; }
 
 .bg-secondary {
@@ -237,5 +237,3 @@ header.masthead {
 .text-paragraphe {
   padding: 3%;
   font-weight: lighter; }
-
-/*# sourceMappingURL=creative.css.map */
