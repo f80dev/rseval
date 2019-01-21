@@ -13,8 +13,22 @@
   background-color: $tertiary !important;
 }
 
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display:inline-block;
+}
+
+.photo-team {
+  height: 100%;
+  margin: 0 auto;
+}
+
 .text-paragraphe {
-  padding:3%;
+  padding:1%;
   font-weight: lighter;
 }
 
