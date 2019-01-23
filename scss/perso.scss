@@ -28,21 +28,26 @@
   display:inline-block;
 }
 
+
+.show_me {
+  display: none;
+}
+
 .photo-team {
   height: 100%;
   margin: 0 auto;
 }
+
+
+
+.photo-team:hover .show_me {
+  display: inline-block;
+}
+
 
 .text-paragraphe {
   padding:1%;
   font-weight: lighter;
 }
 
-.show_me {
-  display: none;
-}
-
-.photo-team:hover .show_me {
-  display: inline-block;
-}
 
