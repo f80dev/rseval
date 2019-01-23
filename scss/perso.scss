@@ -14,8 +14,8 @@
 }
 
 .carousel-title {
-  margin-top:5%;
-  font-size:10vmin;
+  margin-top:3%;
+  font-size:7vmin;
   font-family: Arial;
 }
 
@@ -30,14 +30,13 @@
 
 
 .show_me {
-  display: none;
+  display: inline-block;
 }
 
 .photo-team {
   height: 100%;
   margin: 0 auto;
 }
-
 
 
 .show_him:hover .show_me {

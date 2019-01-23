@@ -235,8 +235,8 @@ header.masthead {
   background-color: #909090 !important; }
 
 .carousel-title {
-  margin-top: 5%;
-  font-size: 10vmin;
+  margin-top: 3%;
+  font-size: 7vmin;
   font-family: Arial; }
 
 .image-cropper {
@@ -248,7 +248,7 @@ header.masthead {
   display: inline-block; }
 
 .show_me {
-  display: none; }
+  display: inline-block; }
 
 .photo-team {
   height: 100%;
