@@ -256,7 +256,7 @@
     <div class="row">
       <div class="col-sm text-center">
         <div class="service-box mt-5 mx-auto">
-          <div class="image-cropper">
+          <div class="image-cropper" onmouseenter="show_him_func(true)" onmouseleave="show_him_func(false)">
             <img src="./img/christine.png" class="photo-team">
           </div>
           <h3 class="mb-3">Christine Piron</h3>
@@ -283,7 +283,7 @@
       </div>
       <div class="col-sm">
         <div class="service-box mt-5 mx-auto text-center">
-          <div class="image-cropper show_him">
+          <div class="image-cropper show_him" onmouseenter="show_him_func(true)" onmouseleave="show_him_func(false)">
             <img src="./img/eloi.png" class="photo-team">
           </div>
           <h3 class="mb-3">Eloi Tostivint</h3>
@@ -293,7 +293,8 @@
 
 
             <span class="show_me">
-                40 missions d'audit RSE à son actif (6 ans d'expérience) :<br> Vigeo 26000, audit LUCIE,RFAR, audit fournisseur<br>
+                40 missions d'audit RSE à son actif (6 ans d'expérience) :
+              <br> Vigeo 26000, audit LUCIE,RFAR, audit fournisseur<br>
               <br>Passionné de photographie et de grands espaces<br>
 
             </span>
@@ -360,7 +361,7 @@
       <img src="https://upload.wikimedia.org/wikipedia/fr/7/7e/Veolia-proprete-logo.png" class="logos">
       <img src="https://www.cominjob.com/media/logo-6114.jpg" class="logos">
 
-      <img src="https://newsroom.groupebpce.fr/media/cache/theming_no_filter_grid_fs/56680f689b3e9d2cbd8b459a" class="logos">
+
       <img src="https://tissens.com/img/cms/Aplix-logo-big.png" class="logos">
 
       <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c7/Logo_ICAM_2008.png/1024px-Logo_ICAM_2008.png" class="logos">
@@ -370,6 +371,8 @@
       <img src="https://gooodpro.files.wordpress.com/2017/07/bleuslogan-fond-transparent-2.png?w=300" class="logos">
       <img src="https://www.axisconseils.fr/wp-content/uploads/2017/09/logo.jpg" class="logos">
       <img src="https://www.bpgo.banquepopulaire.fr/portailinternet/Lists/VisualElementsLogo/logo-bpgo.png;wa191dac4b216f91a1" class="logos">
+      <img src="https://www.labellucie.com/wp-content/uploads/2018/08/CEAPC-caisse-d%C3%A9pargne-logo-labellucie.jpg" class="logos">
+      <img src="https://www.audencia.com/typo3conf/ext/theme_bootstrap_portal/Resources/Public/Images/logos/logo-audencia-bs.jpg" class="logos">
 
     </div>
 
@@ -469,6 +472,17 @@
 
   </div>
 </section>
+
+<script>
+  function show_him_func(show){
+      var elts=document.getElementsByClassName("show_me");
+      for(var i=0;i<elts.length;i++)
+          if(show)
+            elts[i].style.display="inline-block";
+          else
+              elts[i].style.display="none";
+  }
+</script>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
