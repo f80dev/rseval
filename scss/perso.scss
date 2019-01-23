@@ -13,6 +13,12 @@
   background-color: $tertiary !important;
 }
 
+.carousel-title {
+  margin-top:5%;
+  font-size:10vmin;
+  font-family: Arial;
+}
+
 .image-cropper {
   width: 150px;
   height: 150px;
@@ -30,5 +36,13 @@
 .text-paragraphe {
   padding:1%;
   font-weight: lighter;
+}
+
+.show_me {
+  display: none;
+}
+
+.photo-team:hover .show_me {
+  display: inline-block;
 }
 
