@@ -1,6 +1,6 @@
 .logos {
-  width:20vmin;
-  margin:6%;
+  width:23vmin;
+  margin:2%;
   display: inline;
 }
 
@@ -8,12 +8,45 @@
   background-color: $secondary !important;
 }
 
+
 .bg-tertiary {
   background-color: $tertiary !important;
 }
 
+.carousel-title {
+  margin-top:3%;
+  font-size:7vmin;
+  font-family: Arial;
+}
+
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display:inline-block;
+}
+
+
+.show_me {
+  display: none;
+}
+
+.photo-team {
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+.show_him:hover .show_me {
+  display: inline-block;
+}
+
+
 .text-paragraphe {
-  padding:3%;
+  padding:1%;
   font-weight: lighter;
 }
+
 

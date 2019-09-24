@@ -26,6 +26,10 @@
     offset: 57
   });
 
+    $('.carousel').carousel({
+        interval: 500
+    });
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {

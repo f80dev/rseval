@@ -126,7 +126,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header2.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -224,8 +224,8 @@ header.masthead {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
 
 .logos {
-  width: 20vmin;
-  margin: 6%;
+  width: 23vmin;
+  margin: 2%;
   display: inline; }
 
 .bg-secondary {
@@ -234,8 +234,29 @@ header.masthead {
 .bg-tertiary {
   background-color: #909090 !important; }
 
-.text-paragraphe {
-  padding: 3%;
-  font-weight: lighter; }
+.carousel-title {
+  margin-top: 3%;
+  font-size: 7vmin;
+  font-family: Arial; }
 
-/*# sourceMappingURL=creative.css.map */
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block; }
+
+.show_me {
+  display: none; }
+
+.photo-team {
+  height: 100%;
+  margin: 0 auto; }
+
+.show_him:hover .show_me {
+  display: inline-block; }
+
+.text-paragraphe {
+  padding: 1%;
+  font-weight: lighter; }

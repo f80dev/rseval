@@ -14,7 +14,6 @@
     "scripts": {
         "server": "live-server --ignore=./backup --port=8090"
     },
-
     "homepage": "https://startbootstrap.com/template-overviews/creative",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
